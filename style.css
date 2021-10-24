@@ -1,0 +1,1141 @@
+
+ /* shrift  */
+@font-face {
+	font-family: 'Satisfy-Regular';
+	src: url('fonts/satisfy/Satisfy-Regular.eot');
+	src: local('☺'), url('fonts/satisfy/Satisfy-Regular.woff') format('woff'), url('fonts/Satisfy-Regular.ttf') format('truetype'), url('fonts/Satisfy-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}  /* end  */
+ /* shrift  */
+ @font-face {
+	font-family: 'Montserrat-Light';
+	src: url('fonts/mont/Montserrat-Light.eot');
+	src: local('☺'), url('fonts/mont/Montserrat-Light.woff') format('woff'), url('fonts/Montserrat-Light.ttf') format('truetype'), url('fonts/Montserrat-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}  /* end  */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hedbody{
+    padding: 0.1px;
+}
+.hedbody img {
+    position: absolute;
+    width: 100%;
+    filter: brightness(40%);
+}
+.header {
+    position: relative;
+    color: white;
+    font-family: 'Montserrat-Light';
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.header h1 {
+    font-family: 'Montserrat-Light';
+    letter-spacing: 5px;
+    font-size: 23px;
+}
+.header ul {
+    display: flex; 
+    list-style: none;
+}
+.header ul li {
+ margin-left: 5%;
+    
+}
+.fa-angle-down {
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    
+}
+.header ul li a {
+    text-transform: uppercase;
+    font-family: 'Montserrat-Light';
+
+}
+
+.header .sub  {
+    position: absolute;
+    margin: 0;
+    top:160%;
+   
+    visibility: hidden;
+    opacity: 0;
+    text-transform: none;
+    
+    /* display: none; */
+    transition: 200ms linear;
+    transition-property: top,opacity,visibility;
+}
+.header .sub ul li a{
+   transition: 200ms;
+}
+.header .sub ul li a:hover {
+   color: orangered;
+   transition: 200ms;
+}
+.header .sub ul li {
+    margin: 0;
+    background-color: rgb(52,52,52);
+    padding: 20px;  
+}
+.header .sub ul li i {
+    margin-left: 50px;
+    float: right;
+}
+.header .sub ul {
+    display: block;
+}
+.header .hoverme:hover .sub{
+    top: 100%;
+ 
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+.sub2 {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.sub .sub2 ul li {
+    width: 200px;
+    background-color: rgb(41, 41, 41);
+}
+
+.header .sub2  {
+    position: absolute;
+    top:20%;
+    left: 100%;
+    visibility: hidden;
+    opacity: 0;
+    text-transform: none;
+    transition: 200ms linear;
+    transition-property: top,opacity,visibility;
+}
+.header .hover2:hover .sub2 {
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: 200ms linear;
+}
+
+
+.sub3 {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.sub .sub3 ul li {
+    width: 200px;
+    background-color: rgb(41, 41, 41);
+}
+
+.header .sub3  {
+    position: absolute;
+    top:70%;
+    left: 100%;
+    visibility: hidden;
+    opacity: 0;
+    text-transform: none;
+    transition: 200ms linear;
+    transition-property: top,opacity,visibility;
+}
+.header .hover3:hover .sub3 {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 200ms linear;
+
+}
+.hoverme1 .sub4 {
+  position: absolute;
+  left: 71.5%;
+  top: 150%;
+  visibility: hidden;
+  opacity: 0;
+    transition: 200ms linear;
+}
+.hoverme1:hover .sub4{
+    visibility: visible;
+    opacity: 1;
+    transition: 200ms linear;
+    top: 100%;
+}
+.hoverme1 .sub4 ul{
+    display: block;
+}
+.hoverme1 .sub4 ul li{
+    width: 200px;
+    background-color: rgb(52, 52, 52);
+    padding: 20px;  
+}
+.hoverme1 .sub4 ul li:hover  a{
+    color: orangered;
+    transition: 200ms linear;
+}
+.hoverme1 .sub4 ul li a {
+    transition: 200ms linear;
+}
+.hovs .subm {
+    position: absolute;
+    left: 102.7%;
+    top: 130%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 200ms linear;
+}
+.hovs:hover .subm{
+    visibility: visible;
+    opacity: 1;
+    transition: 200ms linear;
+    top: 100%;
+}
+.hovs .subm ul {
+    display: block;
+}
+.hovs .subm ul li {
+    width: 200px;
+    background-color: rgb(52, 52, 52);
+    padding: 20px;  
+}
+.hovs .subm ul li a:hover{
+    color: orangered;
+    transition: 200ms linear;
+}
+.hovs .subm ul li a{
+    transition: 200ms linear;
+    float: right;
+}
+
+.uyetti .yetti {
+    position: absolute;
+    left: -108%;
+    top: 40%;
+    opacity: 0;
+    visibility:hidden;
+    transition: 200ms linear;
+}
+.uyetti:hover .yetti{
+    top: 20%;
+    opacity: 1;
+    visibility:visible;
+    transition: 200ms linear;
+}
+.uyetti .yetti ul li a {
+    float: left;
+}
+.uyetti .yetti ul li:hover a{
+    transition: 200ms linear;
+    color: red;
+}
+.uyetti .yetti ul li {
+    padding: 30px;
+    background-color: rgb(41, 41, 41);
+}
+
+.uyetti1 .yetti1 {
+    position: absolute;
+    left: -108%;
+    top: 60%;
+    opacity: 0;
+    visibility:hidden;
+    transition: 200ms linear;
+}
+.uyetti1:hover .yetti1{
+    top: 40%;
+    opacity: 1;
+    visibility:visible;
+    transition: 200ms linear;
+}
+.uyetti1 .yetti1 ul li a {
+    float: left;
+}
+.uyetti1 .yetti1 ul li:hover a{
+    transition: 200ms linear;
+    color: red;
+}
+.uyetti1 .yetti1 ul li {
+    padding: 30px;
+    background-color: rgb(41, 41, 41);
+}
+
+.uyetti2 .yetti2 {
+    position: absolute;
+    left: -108%;
+    top: 100%;
+    opacity: 0;
+    visibility:hidden;
+    transition: 200ms linear;
+}
+.uyetti2:hover .yetti2{
+    top: 70%;
+    opacity: 1;
+    visibility:visible;
+    transition: 200ms linear;
+}
+.uyetti2 .yetti2 ul li a {
+    float: left;
+}
+.uyetti2 .yetti2 ul li:hover a{
+    transition: 200ms linear;
+    color: red;
+}
+.uyetti2 .yetti2 ul li {
+    padding: 30px;
+    background-color: rgb(41, 41, 41);
+}
+
+.hovcon .cont {
+    position: absolute;
+    left: 111%;
+    top: 120%;
+    visibility: hidden;
+    transition: 200ms linear;
+    opacity: 0;
+}
+.hovcon:hover .cont {
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+    transition: 200ms linear;
+
+}
+.hovcon .cont ul li {
+    background-color: rgb(52, 52, 52);
+    width: 120px;
+    padding: 20px;
+}
+.hovcon .cont ul li:hover a {
+    color: orangered;
+    transition: 200ms linear;
+}
+.hovcon .cont ul li a {
+    transition: 200ms linear;
+}
+.acor:hover a{
+    color: orangered;
+    transition: 200ms linear;
+}
+.acor{
+    transition: 200ms linear;
+}
+
+
+
+.hedmain {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+.hedmain h1 {
+    font-family: 'Satisfy-Regular';
+    font-size: 80px;
+    font-weight: normal;
+}
+.hedmain h2 {
+    font-size: 35px;
+    margin-top: 1%;
+    font-family: 'Montserrat-Light';
+    font-weight: bold;
+}
+.hedmain h3 {
+    font-weight: normal;
+    font-family: 'Montserrat-Light';
+    font-size: 20px;
+    width: 32%;
+    margin-left: 34%;
+    margin-top: 3%;
+}
+.hedmain button {
+    border: 0;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+    padding: 16px;
+    transition: 200ms linear;
+    cursor: pointer;
+    margin-top: 3%;
+}
+.hedmain button:hover {
+    background-color: rgb(255, 102, 0);
+    transition: 200ms linear;
+}
+
+
+
+.slflex{
+    display: flex;
+}
+
+.slojnabord { 
+    position: relative;
+    height:20vh;
+    width: 25%;
+    /* position: absolute; */
+    border-bottom: 1px solid gray;
+    top: 100%;
+    display: block;
+    margin-top: 12.1%;
+    padding: 40px;
+}
+.slojnabord:hover .srasm img {
+    filter: grayscale(0);
+    transition: 200ms linear;
+}
+.slojnabord:hover .slojna::after {
+    width: 100%;
+    transition: 200ms linear;
+
+}
+.srasm img{
+    transition: 200ms linear;
+    filter:grayscale(1);
+}
+.slojna {
+    display: flex;
+}
+.slojna::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 0;
+    bottom: -1px;
+    background-color: orange;
+    transition: 200ms linear;
+    left: 0;
+}
+
+
+.syozuv {
+    margin-left: 10%;
+    padding: 0.1px;
+    color: gray;
+}
+.syozuv h2 {
+    font-weight: normal;
+    font-family: 'Montserrat-Light';
+}
+.syozuv img {
+    margin-top: 2%;
+}
+.syozuv p {
+    margin-top: 3%;
+    font-family: 'Montserrat-Light';
+    color: gray;
+}
+
+.twoflex{
+    display: flex;
+    /* background-color: red; */
+    height: 75vh;
+    margin-top: 5vh;
+    width: 100%;
+    align-items: center;
+}
+.birlash {
+    display: flex;
+    margin-left: 11%;
+}
+.bir {
+    background-image: url(./images/leftPART.webp);  
+    width: 300px;
+    height: 450px;
+    text-align: center;
+}
+.bir h2 {
+    color: white;
+    font-weight: normal;
+    font-family: 'Montserrat-Light';
+    padding: 10px;
+    background-color: rgba(255, 136, 0, 0.8);
+    font-size: 20px;
+    padding-top: 30px;
+}
+.bir h1 {
+    font-family: 'Montserrat-Light';
+    background-color: rgba(255, 136, 0, 0.8);
+    color: white;
+    padding: 10px;
+    padding-bottom: 30px;
+ 
+}
+.ikki {
+    background-image: url(images/rightPART.webp); 
+    width: 300px;
+    text-align: center;
+    height: 450px;
+}
+.ikki h2 {
+    color: white;
+    font-weight: normal;
+    font-family: 'Montserrat-Light';
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.8);
+    font-size: 20px;
+    padding-top: 30px;
+}
+.ikki h1 {
+    font-family: 'Montserrat-Light';
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 10px;
+    padding-bottom: 30px;
+ 
+}
+.youz {
+    width: 40%;
+    height: 40vh;
+    margin-left: 10%;
+}
+.youz h1 {
+    font-family: 'Montserrat-Light';
+    margin-top: -13%;
+    margin-bottom: 10%;
+}
+.youz h3 {
+    margin-bottom: 10%;
+    font-family: 'Montserrat-Light';
+    width: 66%;
+    font-size: 20px;
+    font-weight: normal;
+}
+.youz h4 {
+    margin-bottom: 10%;
+    width: 66%;
+    font-family: 'Montserrat-Light';
+    font-size: 20px;
+    font-weight: normal;
+
+}
+.youz h4::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(images/quote-left-solid.svg);
+    position: absolute;
+    left: 57%;
+}
+
+.youz a {
+    color: orangered;
+    text-decoration: underline orangered;
+    font-weight: bold;
+    transition: 200ms linear;
+    font-size: 20px;
+}
+.youz a:hover {
+    color: rgb(51, 51, 51);
+    text-decoration: underline rgb(51, 51, 51);
+    transition: 200ms linear;
+}
+
+.uchtaflex {
+    margin-top: 5%;
+    display: flex;
+    background-color: red;
+    height: 95vh;
+}
+
+.birinchi {
+    background-image: url(./images/bosh.jpg);
+    position: relative;
+    background-position: center;
+    width: 33.3%;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    
+}
+.birinchi1 {
+    position: relative;
+    background-position: center;
+   background-image: url(./images/orta.jpg);
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.birinchi2 {
+    position: relative;
+    background-position: center;
+   background-image: url(./images/oxiri.jpg);
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.boxh1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 136, 0, 0.315);
+    left: -100%;
+    transition: .5s;
+    top: -100%;
+    opacity: 0;
+}
+.boxh {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 136, 0, 0.315);
+    right:-100%;
+    opacity: 0;
+    bottom: -100%;transition: .5s;
+}
+.birinchi:hover .boxh1 {
+    left: 0;
+    top: 0;
+    transition: .5s;
+    opacity: 1;
+}.birinchi1:hover .boxh1 {
+    left: 0;
+    top: 0;
+    transition: .5s;
+    opacity: 1;
+}.birinchi2:hover .boxh1 {
+    left: 0;
+    top: 0;
+    transition: .5s;
+    opacity: 1;
+}
+
+.birinchi:hover .boxh {
+    right: 0;
+    opacity: 1;
+    bottom: 0;
+    transition: .5s;
+}.birinchi1:hover .boxh {
+    right: 0;
+    opacity: 1;
+    bottom: 0;
+    transition: .5s;
+}.birinchi2:hover .boxh {
+    right: 0;
+    opacity: 1;
+    bottom: 0;
+    transition: .5s;
+}
+
+.birinchi a {
+    font-size: 35px;
+    font-family: 'Montserrat-Light';
+    font-weight: bold;
+    position: relative;
+    top: 90%;
+    z-index: 5;
+}
+.birinchi a::before {
+    content: '';
+    position: absolute;
+    background-color: orange;
+    width: 400%;
+    left: -150%;
+    top: -20px;
+    height: 30vh;
+    z-index:-1;
+}
+.birinchi1 a {
+    font-size: 35px;
+    font-family: 'Montserrat-Light';
+    font-weight: bold;
+    position: relative;
+    top: 90%;
+    z-index: 5;
+}
+.birinchi1 a::before {
+    content: '';
+    position: absolute;
+    background-color: orange;
+    width: 400%;
+    left: -150%;
+    top: -20px;
+    height: 30vh;
+    z-index:-1;
+}.birinchi2 a {
+    font-size: 35px;
+    font-family: 'Montserrat-Light';
+    font-weight: bold;
+    position: relative;
+    top: 90%;
+    z-index: 5;
+}
+.birinchi2 a::before {
+    content: '';
+    position: absolute;
+    background-color: orange;
+    width: 400%;
+    left: -150%;
+    top: -20px;
+    height: 30vh;
+    z-index:-1;
+}
+
+
+
+
+
+.smoke {    
+    height: 95vh;
+    width: 100%;
+    padding: 0.1px;
+    background-color: whitesmoke;
+}
+.smoke h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: 'Montserrat-Light';
+    margin-top: 5%;
+}
+.smoke h2 {
+    font-family: 'Montserrat-Light';
+    margin-top: 3%;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+.uchtakom {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+.kom {
+    width: 30%;
+    /* background-color: red; */
+    height: 50vh;
+    text-align: center;
+}
+.kom p {
+    font-size: 18px;
+    font-family: 'Montserrat-Light';
+    margin-top: 5%;
+    line-height: 180%;
+    text-align: center;
+    font-weight: 300;
+}
+.kom h3 {
+    font-family: 'Montserrat-Light';
+    float: left;
+    margin-left: 1%;
+}
+.kom h4 {
+    font-family: 'Montserrat-Light';
+    color: rgb(182, 182, 182);
+    font-weight: normal;
+    font-size: 15px;
+    float: left;
+}
+.kom .fa-quote-left {
+    font-size: 45px;
+    color: orange;
+}
+.imrasm {
+    margin-top: 10%;
+    display: flex;
+    margin-left: 10%;
+}
+.imray {
+    margin-left: 8%;
+}
+
+
+
+
+.whitefon {
+    /* background-color: red; */
+    height: 90vh;
+    padding: 0.1px;
+}
+.whitefon h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    font-family: 'Montserrat-Light';
+    margin-top: 5%;
+}
+
+.mirrorpiz {
+    width: 24.9%;
+    height: 40vh; 
+    position: relative;
+}
+.mirrorpiz a img {
+    width: 100%;
+    transition: all .5s;
+    height: 100%;
+    
+}
+.mirrors {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.mirrorpiz  {
+    transition: all .3s;
+    overflow: hidden;
+}
+.mirrorpiz a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 15px;
+    transform:  rotate(45deg) translateX(-30%) translateY(4800%);
+    /* transition: all .3s; */
+    opacity: 0.5;
+    background-image: linear-gradient(180deg , rgb(207, 205, 205) , rgb(168, 168, 168) , rgb(112, 112, 112) ,rgba(43, 43, 43, 0) );
+}
+.mirrorpiz a:hover:after{
+    transition: all .5s;
+    transform: rotate(45deg);
+    opacity: 1;
+}
+.mirrorpiz a:hover img {
+    transition: all .5s;
+    filter: brightness(60%);
+}
+
+.chefs {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 145, 0);
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.chefs a {
+    text-align: center;
+    margin-left: 5%;
+    font-weight: 600;
+
+}
+.chefs1 {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 145, 0);
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 27%;
+}
+.chefs1 a {
+    text-align: center;
+    margin-left: 5%;
+    font-weight: 600;
+
+}
+.chefs2 {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 145, 0);
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 52%;
+}
+.chefs2 a {
+    text-align: center;
+    margin-left: 5%;
+    font-weight: 600;
+
+}
+.chefs3 {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 145, 0);
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 78%;
+}
+.chefs3 a {
+    text-align: center;
+    margin-left: 5%;
+    font-weight: 600;
+
+}
+
+.sale {
+    position: absolute;
+    /* background-color: red; */
+    margin-top: 20%;
+    margin-left: 2%;
+}
+.sale a {
+    color: rgb(36, 35, 35);
+}
+.sale a:hover {
+    color: orange;
+}
+.sale span {
+    color: orange;
+    font-weight: bold;
+}
+
+
+.sale1 {
+    position: absolute;
+    /* background-color: red; */
+    margin-top: 20%;
+    margin-left: 27.5%;
+}
+.sale1 a {
+    color: rgb(36, 35, 35);
+}
+.sale1 a:hover {
+    color: orange;
+}
+.sale1 span {
+    color: orange;
+    font-weight: bold;
+}
+
+
+
+.sale2 {
+    position: absolute;
+    /* background-color: red; */
+    margin-top: 20%;
+    margin-left: 52.5%;
+}
+.sale2 a {
+    color: rgb(36, 35, 35);
+}
+.sale2 a:hover {
+    color: orange;
+}
+.sale2 span {
+    color: orange;
+    font-weight: bold;
+}
+
+
+
+.sale3 {
+    position: absolute;
+    /* background-color: red; */
+    margin-top: 20%;
+    margin-left: 78%;
+}
+.sale3 a {
+    color: rgb(36, 35, 35);
+}
+.sale3 a:hover {
+    color: orange;
+}
+.sale3 span {
+    color: orange;
+    font-weight: bold;
+}
+
+
+.book {
+    height:53vh;
+    background-image: url(./images/400.webp);
+    background-position: center;
+    padding: 0.1px;
+}
+.bokyoz {
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.bokyoz h1 {
+    font-family: 'Montserrat-Light';
+    color: orange;
+    font-weight: normal;
+}
+.bokyoz p {
+    font-family: 'Montserrat-Light';
+    color: rgb(48, 47, 47);
+    margin-top: 2%;
+    line-height: 200%;
+    width: 45%;
+}
+.bokyoz button {
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: rgb(255,132,0);
+    border: 0;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 25px;
+    transition: 200ms linear;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.bokyoz button:hover {
+    background-color: orangered;
+    transition: 200ms linear;
+}
+
+
+.doyou {
+    background-color: rgb(255,132,0);
+    height: 30vh;
+    display: flex;
+    padding: 0.1px;
+    align-items: center;
+}
+.words {
+    padding: 0.1px;
+    margin-left: 8%;
+
+}
+.words h2 {
+    color: white;
+    font-family: 'Montserrat-Light';
+
+    
+}
+
+.words h5 {
+    color: white;
+    font-family: 'Montserrat-Light';
+}
+.inputs {
+    padding: 0.1px;
+    margin-left: 8%;
+}
+.inputs input {
+    padding: 20px;
+    padding-right: 60px;
+    width: 200px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.096);
+    color: white;
+    margin-top: -3px;
+}
+.inputs input::placeholder {
+    color: whitesmoke;
+    font-size: 20px;
+}
+.inputs button{
+    background-color: whitesmoke;
+    color: rgb(255,132,0);
+    border: 0;
+    border-radius: 0px 6px 6px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -10px;
+    
+    width: 200px;
+    height: 8vh;
+    cursor: pointer;
+}
+
+.amogus {
+    background-color: rgb(52, 52, 52);
+    height: 60vh;
+    padding: 0.1px;
+}
+
+.ficon {
+    display: flex;
+    margin-top: 5%;
+}
+
+.flexsus {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    color: white;
+    font-family: 'Montserrat-Light';
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.about  {
+    width: 30%;
+}
+.about h1 {
+    font-family: 'Montserrat-Light';
+    font-weight: normal;
+    text-align: center;
+}
+.about p {
+    font-family: 'Montserrat-Light';
+    margin-top: 5%;
+    text-align: justify;
+    line-height: 200%;
+}
+.contactus {
+    width: 30%;
+}
+.contactus h1 {
+    font-family: 'Montserrat-Light';
+    font-weight: normal;
+    text-align: center;
+}
+.ficon h5 {
+    font-family: 'Montserrat-Light';
+    font-weight: normal;
+    margin-left: 5%;
+}
+.instagram {
+    width: 30%;
+}
+.instagram h1 {
+    font-family: 'Montserrat-Light';
+    font-weight: normal;
+    text-align: center;
+}
+.instagram p {
+    font-family: 'Montserrat-Light';
+    font-size: 25px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.copyright {
+    height: 10vh;
+    background-color: rgb(62,62,62);
+    display: flex;
+    align-items: center;
+}
+
+.copyright h4 {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat-Light';
+    font-weight: normal;
+    margin-left: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
